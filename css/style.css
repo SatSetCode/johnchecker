@@ -1,0 +1,246 @@
+
+
+.unknown_f{
+  color:#6FCFFF;
+}
+.contentfuck{
+
+}
+
+
+.welcome{
+    font-size: 19px;
+    color:white;
+}
+
+.lol{
+    font-size: 20px;
+    color:white;
+    border:1px solid white;
+    padding: 6px;
+    text-decoration: none;
+}
+ 
+textarea{
+  border-radius: 3px;
+  background: white;
+  color:black;
+  width: 60%;
+  text-align: center;
+  outline: none;
+    margin-top: 50px;
+
+  color:white;
+background-color: rgba(255, 99, 71, 0);
+background: rgba(0, 0, 0, 0.5);
+  font-size:20px;
+  border:1px solid #ffffff;
+    transition: 0.7s;
+
+
+}
+
+::placeholder{
+  color:#cccccc;
+}
+
+::-webkit-placeholder{
+  color:#cccccc;
+}
+
+textarea:focus{
+background-color: rgba(255, 99, 71, 0);
+background: rgba(0, 0, 0, 0.5);
+border:3px solid #ffffff;
+transition: 0.7s;
+}
+
+#copylive{font-weight: 900;background:#1ECC10;color:black;border-radius:15px;outline:none;border:none;padding: 4px;float: right;}
+#copydied{font-weight: 900;background:#BA0000;color:black;border-radius:15px;outline:none;border:none;padding: 4px;float: right;}
+#copyunknown{font-weight: 900;background:#6FCFFF;color:black;border-radius:15px;outline:none;border:none;padding: 4px;float: right;}
+
+
+
+#check{
+color: #ffffff;
+font-size:3vw;
+font-weight: bold;
+margin-top: 60px;
+font-family: 'Lucida Console';
+letter-spacing: -1px;
+font-style:normal;
+transition: 0.9s;
+padding: 20px;
+
+}
+
+#check:hover{
+  transition: 0.9s;
+  color:black;
+  background: #69E35B;
+
+
+}
+
+#auth{
+  font-size: 17px;color:white;font-weight: 700;
+}
+
+.live_f{
+  color:#45F000;
+  padding-left: 10px;
+  margin-left: 5px;
+  font-size:15px;
+}
+.died_f{
+  color:#F90202;
+  padding-left: 10px;
+  margin-left: 5px;
+  font-size:15px;
+}
+#send {
+    background: #ff000061;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    color: #ccc;
+    padding: 13px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    width: 100px;
+    font-weight: 900;
+    transition: 0.6s;
+    border-radius: 9px;
+}
+
+#count_div{
+  visibility:hidden;
+
+  font-size: 30px;
+}
+
+#ygdicek{
+  position: relative;
+   color: lime;
+}
+
+#finished{
+  font-weight: 600;
+  font-size: 25px; 
+  display: none;
+  color:lime;
+  position: relative;
+  top:48px;
+  font-style: oblique;padding: 15px;
+background-color: rgba(119, 117, 58, 0.3);
+background: rgba(119, 117, 58, 0.3);
+
+}
+.livetextcolor {color:#1ECC10;}
+.diedtextcolor {color:red;}
+.unknowntextcolor {color:#6FCFFF;}
+
+
+#counter{
+font-weight: 900;
+color: #fff;
+}
+
+#send:hover{
+  background-color: #27062B; 
+
+color: white;
+font-weight: 900;
+transition: 0.6s;
+border:2px solid white;
+}
+
+
+
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.column {
+  flex: 1;
+  border: 1px solid gray;
+  margin: 7px;
+  padding: 10px;
+  height: 200px;
+  overflow: auto;
+  border-radius: 9px;
+  &:first-child { margin-left: 0; }
+  &:last-child { margin-right: 0; }
+  
+}
+
+
+@media screen and (max-width: 980px) {
+  .row .column {
+    margin-bottom: 5px;
+    flex-basis: 40%;
+    &:nth-last-child(2) {
+      margin-right: 0;
+    }
+    &:last-child {
+      flex-basis: 100%;
+      margin: 0;
+    }
+  }
+}
+
+
+#live{
+border:1px solid #1ECC10;
+-webkit-box-shadow: 10px 11px 52px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 52px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 11px 52px 0px rgba(0,0,0,0.75);
+background: rgba(0,0,0,0.7);
+
+}
+
+#died{
+border:1px solid #BA0000;
+-webkit-box-shadow: 10px 11px 52px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 52px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 11px 52px 0px rgba(0,0,0,0.75);
+background: rgba(0,0,0,0.7);
+}
+
+#unknown{
+border:1px solid #6FCFFF;
+-webkit-box-shadow: 10px 11px 52px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 52px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 11px 52px 0px rgba(0,0,0,0.75);
+background: rgba(0,0,0,0.7);
+}
+
+
+
+@media screen and (max-width: 680px) {
+  .row .column {
+    flex-basis: 100%;
+    margin: 0 0 5px 0;
+  }
+}
+
+
+
+
+#live_counter, #died_counter , #unknown_counter{
+padding: 0px 5px 1px 5px;
+font-weight: 700;
+}
+
+#live_counter{ background: #1ECC10; }
+
+#died_counter{ background: #BA0000; }
+
+#unknown_counter{ background: #6FCFFF; }
